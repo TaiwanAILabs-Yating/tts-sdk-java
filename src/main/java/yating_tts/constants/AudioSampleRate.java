@@ -21,7 +21,7 @@ public class AudioSampleRate {
             case VoiceModel.TaiFemale1:
             case VoiceModel.TaiFemale2:
             case VoiceModel.TaiMale1:
-                valueList = new String[] { SR16k };
+                valueList = new String[] { SR16k, SR22k };
                 break;
         }
         return Arrays.asList(valueList);
